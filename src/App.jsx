@@ -12,7 +12,7 @@ function App() {
 
   return(
     // required by react to wrap components in an empty div
-    <> 
+    <div className='app-container'> 
       <Header/>
       <Intro/>
       <Projects/>
@@ -22,7 +22,7 @@ function App() {
       <FurtureWork/>
       <ContactMe/>
       <Footer/>
-    </>
+    </div>
   );
 }
 

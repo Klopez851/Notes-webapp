@@ -1,18 +1,23 @@
+import './Header.css'
+
 function Header (){
     return(
-        <header>
+        <header className='header-container'>
             <nav>
-                <ul style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'center' }}>
-                    <li><a href="#">Intro</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Certifications</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Future Work</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                    <li><a href="#">Resume</a></li>
-
-                </ul>
+                <input type="checkbox" id="check"/>
+                <label htmlFor="check" className='checkbtn'>
+                    <i className="fas fa-bars"></i>
+                </label>
+                <div>
+                    <a href="#">Intro</a> 
+                    <a href="#">Projects</a> 
+                    <a href="#">Skills</a> 
+                    <a href="#">Certifications</a> 
+                    <a href="#">About Me</a> 
+                    <a href="#">Future Work</a> 
+                    <a href="#">Contact Me</a> 
+                    <a href="#">Resume</a> 
+                </div>
             </nav>
         </header>
     );

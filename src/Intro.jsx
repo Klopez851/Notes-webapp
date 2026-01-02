@@ -1,9 +1,9 @@
 import profilePic from './assets/profilePic.jpg'
+import './Intro.css'
 
 function Intro(){
     return(
-        <section>
-            <h1>Intro</h1>
+        <section className='intro-container'>
             <img src={profilePic} alt="Keidy Lopez" />
             <p>Hello! I’m a Massachusetts-based backend engineer by trade,
              with hands-on experience across the full stack through personal 
