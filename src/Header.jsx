@@ -2,7 +2,7 @@ function Header (){
     return(
         <header>
             <nav>
-                <ul>
+                <ul style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'center' }}>
                     <li><a href="#">Intro</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Skills</a></li>
