@@ -39,6 +39,7 @@ function Projects(){
             <div>
                 {projects.map((project)=>
                     <ProjectCard
+                        key={project.projectTitle}
                         imglink={project.imageUrl}
                         imgAlt={project.imageAlt}
                         projectTitle={project.projectTitle}

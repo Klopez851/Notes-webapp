@@ -28,7 +28,8 @@ function Skills(){
             <h1>Skills</h1>        
             <div  style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'center' }}>
                 {skillList.map((skill) => 
-                    <IconCard 
+                    <IconCard
+                    key={skill.name} 
                     icon = {skill.icon}
                     iconName={skill.name}
                     />

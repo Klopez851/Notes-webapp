@@ -14,6 +14,7 @@ function FurtureWork(){
             <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'center' }}>
                 {projects.map((project) => 
                     <ProjectCard
+                        key={project.name}
                         projectTitle={project.name}
                         description={project.description}
                     />

@@ -14,7 +14,7 @@ function ProjectCard({imglink, imgAlt, projectTitle, projectLink, description, t
 
             {techs && (
                 <div>
-                    {techs.map((lang)=><button>{lang}</button>)}
+                    {techs.map((lang)=><button key={lang}>{lang}</button>)}
                 </div>
                 )
             }
