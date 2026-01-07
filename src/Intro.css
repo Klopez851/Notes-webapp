@@ -40,19 +40,15 @@
         margin-bottom: .3rem;
     }
 
-    .introImg{
-        position: relative;
-        left: 3vw;
-        top:1vh;
+    .introImgContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     .introP{
         font-size: large;
-        position: relative;
-        margin: 2rem;
-        width: 50vw;
-        height: 25vh;  
-        top: 1.2rem;
         text-align: left;
     }
 }
@@ -64,8 +60,14 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding-bottom: 5rem;
         gap:5rem;
+    }
+    
+    .introImgContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     .introImg{
@@ -76,10 +78,6 @@
 
     .introP{
         font-size: x-large;
-        position: relative;
-        margin: 2rem;
         width: 50vw;
-        height: 27vh;  
-        top: 2.1rem;
     }
 }

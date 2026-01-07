@@ -25,6 +25,8 @@
 .app-container{
     background-color: var(--color-background);
     padding-top: 1vh;
+    padding-bottom: .9vh;
+  
 }
 
 body, html{

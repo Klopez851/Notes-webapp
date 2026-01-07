@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import './FutureWork.css'
 
 function FurtureWork(){
     const projects = [
@@ -9,16 +10,16 @@ function FurtureWork(){
     
     return(
         <section>
-            <h1>Future Work</h1>
-            <p>I still have many ideas of things I want to make, some of which are:</p>
-            <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'center' }}>
+            <h1 className="futureWorkH1">Future Work</h1>
+            <p className="futureWorkP">I still have many ideas of things I want to make, some of which are:</p>
+            <div className="projectContainer">
                 {projects.map((project) => 
                     <ProjectCard
                         key={project.name}
                         projectTitle={project.name}
                         description={project.description}
                     />
-                )};
+                )}
             </div>
         </section>
     );
