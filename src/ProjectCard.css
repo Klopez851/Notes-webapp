@@ -190,7 +190,7 @@
     border-radius: 30px;
     border-color: var(--color-accent-1);
 
-    box-shadow: 10px 10px 5px var(--shadow);
+    box-shadow: 1em 1em .5em var(--shadow);
     /* bottom, right side, blur, color*/
 
     background-color: var(--color-background-lighter);

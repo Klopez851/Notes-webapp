@@ -8,6 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa6";
 import { SiSpring } from "react-icons/si";
 import IconCard from "./IconCard.jsx";
+import './Skills.css'
 
 
 function Skills(){
@@ -25,11 +26,11 @@ function Skills(){
     
     return(
         <section>
-            <h1>Skills</h1>        
-            <div  style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'center' }}>
+            <h1 className="skillsH1">Skills</h1>        
+            <div  className="skillsContainer">
                 {skillList.map((skill) => 
                     <IconCard
-                    key={skill.name} 
+                    key={skill.name}
                     icon = {skill.icon}
                     iconName={skill.name}
                     />

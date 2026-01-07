@@ -24,9 +24,11 @@
     
 }
 
+/*try to add dynamic font sizing*/
 .nav-mobile-open{
     background-color: var(--color-primary);
     font-family: var(--primary-font);
+    font-size:5 ;
     display: flex;
     flex-direction: column;
     justify-content:flex-end;

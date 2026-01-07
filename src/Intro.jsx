@@ -4,7 +4,9 @@ import './Intro.css'
 function Intro(){
     return(
         <section className='intro-container'>
+            <div className='introImgContainer'>
             <img className='introImg' src={profilePic} alt="Keidy Lopez" />
+            </div>
             <p className='introP'>Hello! My name is Keidy and I’m a Massachusetts-based <span className='introSpan'>backend engineer</span> by trade,
              with hands-on experience across the <span className='introSpan'>full stack</span> through personal 
              projects. My primary interest lies in backend development, where 

@@ -1,0 +1,30 @@
+.iconCardContainer{
+    background-color: var(--color-background-lighter);
+    text-align: center;
+
+    border: solid;
+    border-radius: .3rem;
+    border-width: .1rem;
+    border-color: var(--color-accent-2);
+
+    box-shadow: .3em .3em .3em var(--shadow);
+    /* bottom, right side, blur, color*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5em .5em .5em .5em;
+    /*top,right,bottom,left*/
+
+}
+
+.icon{
+    color: var(--color-accent-1);
+    font-size: xxx-large;
+    padding: 0;
+}
+
+.iconCarcP{
+    margin: .2em 0 0 0;
+}
