@@ -5,14 +5,14 @@ import { FaBars } from "react-icons/fa";
 function Header (){
     //{link:'',name:''},
     const navOptions = [
-        {link:'',name:'Intro'},
-        {link:'',name:'Projects'},
-        {link:'',name:'Skills'},
-        {link:'',name:'Certifications'},
-        {link:'',name:'About Me'},
-        {link:'',name:'Future Work'},
-        {link:'',name:'Contact Me'},
-        {link:'',name:'Resume'},
+        {link:'#Intro',name:'Intro'},
+        {link:'#Projects',name:'Projects'},
+        {link:'#Skills',name:'Skills'},
+        {link:'#Certifications',name:'Certifications'},
+        {link:'#AboutMe',name:'About Me'},
+        {link:'#FutureWork',name:'Future Work'},
+        {link:'#ContactMe',name:'Contact Me'},
+        {link:'#Resume',name:'Resume'},
     ]
     const [openMenu, setOpenMenu] = useState(false);
     //"create a boolVar (openMenu) starting as false (useState(false)), and give me a function (setOpenMenu) to set the value of said var"

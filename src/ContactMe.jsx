@@ -5,7 +5,7 @@ function ContactMe(){
     const [showForm, setShowForm] = useState(false);
 
     return(
-        <section>
+        <section id='ContactMe'>
             <h1 className='contactMeH1'>Contact me</h1>
 
             <p className='contactMeP'>Like what you see? Lets connect!</p>

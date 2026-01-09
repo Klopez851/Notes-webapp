@@ -14,7 +14,7 @@ function App() {
     // required by react to wrap components in an empty div
     <div className='app-container'> 
       <Header/>
-      <Intro/>
+      <Intro />
       <Projects/>
       <Skills/>
       {/* <h1>Certifications</h1> */}

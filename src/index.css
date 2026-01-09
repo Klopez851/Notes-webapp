@@ -27,6 +27,7 @@
     padding-top: 1vh;
     padding-bottom: .9vh;
   
+    /*Fix issue with header buttons not showing sections centered*/
 }
 
 body, html{

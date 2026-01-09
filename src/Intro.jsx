@@ -3,7 +3,7 @@ import './Intro.css'
 
 function Intro(){
     return(
-        <section className='intro-container'>
+        <section className='intro-container' id='Intro'>
             <div className='introImgContainer'>
                 <img className='introImg' src={profilePic} alt="Keidy Lopez" />
             </div>

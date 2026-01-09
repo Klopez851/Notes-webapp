@@ -9,7 +9,7 @@ function FurtureWork(){
     ]
     
     return(
-        <section>
+        <section id="FutureWork">
             <h1 className="futureWorkH1">Future Work</h1>
             <p className="futureWorkP">I still have many ideas of things I want to make, some of which are:</p>
             <div className="projectContainer">
